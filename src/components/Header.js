@@ -8,14 +8,15 @@ const MainContent = () => {
       <h3>
         <a
           href="https://pedropacas.netlify.app/"
-          onclick="window.open(this.href,'_blank');return false;"
+          target="_blank"
+          rel="noopener"
         >
           pedropacas.netlify.app
         </a>
       </h3>
       <div className="email">
         <img src="./images/icon.png" alt="icon" className="icon" />
-        <a href="mailto: pndspacas@gmail.com">
+        <a href="mailto: pndspacas@gmail.com" target="_blank" rel="noopener">
           <h3 className="headerEmail">Email</h3>
         </a>
       </div>
@@ -30,7 +31,8 @@ const MainContent = () => {
         <p>
           <a
             href="https://favanimes.netlify.app/index.html"
-            onclick="window.open(this.href,'_blank');return false;"
+            target="_blank"
+            rel="noopener"
           >
             Anime List
           </a>
@@ -38,7 +40,8 @@ const MainContent = () => {
         <p>
           <a
             href="https://card-game-api.netlify.app/"
-            onclick="window.open(this.href,'_blank');return false;"
+            target="_blank"
+            rel="noopener"
           >
             The Shuffler Game
           </a>
@@ -46,7 +49,8 @@ const MainContent = () => {
         <p>
           <a
             href="https://github-stalker-api.netlify.app/"
-            onclick="window.open(this.href,'_blank');return false;"
+            target="_blank"
+            rel="noopener"
           >
             Github Stalker
           </a>
@@ -54,7 +58,8 @@ const MainContent = () => {
         <p>
           <a
             href="https://happy-notes-react.netlify.app/"
-            onclick="window.open(this.href,'_blank');return false;"
+            target="_blank"
+            rel="noopener"
           >
             Happy Notes
           </a>
