@@ -9,14 +9,18 @@ const MainContent = () => {
         <a
           href="https://pedropacas.netlify.app/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           pedropacas.netlify.app
         </a>
       </h3>
       <div className="email">
         <img src="./images/icon.png" alt="icon" className="icon" />
-        <a href="mailto: pndspacas@gmail.com" target="_blank" rel="noopener">
+        <a
+          href="mailto: pndspacas@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <h3 className="headerEmail">Email</h3>
         </a>
       </div>
@@ -32,7 +36,7 @@ const MainContent = () => {
           <a
             href="https://favanimes.netlify.app/index.html"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Anime List
           </a>
@@ -41,7 +45,7 @@ const MainContent = () => {
           <a
             href="https://card-game-api.netlify.app/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             The Shuffler Game
           </a>
@@ -50,7 +54,7 @@ const MainContent = () => {
           <a
             href="https://github-stalker-api.netlify.app/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Github Stalker
           </a>
@@ -59,7 +63,7 @@ const MainContent = () => {
           <a
             href="https://happy-notes-react.netlify.app/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             Happy Notes
           </a>
