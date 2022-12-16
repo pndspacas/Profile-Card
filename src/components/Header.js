@@ -6,11 +6,13 @@ const MainContent = () => {
       <h1>Pedro Paças</h1>
       <h2>Frontend Developer</h2>
       <h3>
-        <a href="https://pedropacas.netlify.app/">pedropacas.netlify.app</a>
+        <a href="https://pedropacas.netlify.app/" target="_blank">
+          pedropacas.netlify.app
+        </a>
       </h3>
       <div className="email">
         <img src="./images/icon.png" alt="icon" className="icon" />
-        <a href="mailto: pndspacas@gmail.com">
+        <a href="mailto: pndspacas@gmail.com" target="_blank">
           <h3 className="headerEmail">Email</h3>
         </a>
       </div>
@@ -23,16 +25,24 @@ const MainContent = () => {
         </p>
         <h4>Projects</h4>
         <p>
-          <a href="https://favanimes.netlify.app/index.html">Anime List</a>
+          <a href="https://favanimes.netlify.app/index.html" target="_blank">
+            Anime List
+          </a>
         </p>
         <p>
-          <a href="https://card-game-api.netlify.app/">The Shuffler Game</a>
+          <a href="https://card-game-api.netlify.app/" target="_blank">
+            The Shuffler Game
+          </a>
         </p>
         <p>
-          <a href="https://github-stalker-api.netlify.app/">Github Stalker</a>
+          <a href="https://github-stalker-api.netlify.app/" target="_blank">
+            Github Stalker
+          </a>
         </p>
         <p>
-          <a href="https://happy-notes-react.netlify.app/">Happy Notes</a>
+          <a href="https://happy-notes-react.netlify.app/" target="_blank">
+            Happy Notes
+          </a>
         </p>
       </main>
     </div>
